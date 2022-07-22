@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+</head>
+<body>
+    <h1 style="color: white;">CHARLES</h1>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="body">
+        <a href="#" id="about">About</a>
+        <a href="#" id="services">Services</a>
+        <a href="#" id="clients">Clients</a>
+        <a href="#" id="contact">Contact</a>
+      </div>
+    </div>
+      <div class="main">
+        <h2 style="text-align:center">I am creating a responsive sidebar with various programming languages like HTML, CSS and JavaScript</h2>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    
+<script>
+   function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}      
+</script>
+    
+</body>
+</html>
